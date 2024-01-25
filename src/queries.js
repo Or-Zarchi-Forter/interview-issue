@@ -1,6 +1,6 @@
 const {createClient} = require('./redis-client');
 
-const redisClient = createClient('redis://:qHQjRbACvRUNudRUDEEWp88lxx8vKs2C@redis-15160.c135.eu-central-1-1.ec2.cloud.redislabs.com:15160');
+const redisClient = createClient('redis://default:56dtKjrjFitHg2CmgrBDxZaXe9C33tD5@redis-17532.c293.eu-central-1-1.ec2.cloud.redislabs.com:17532');
 
 const setSessionInfo = async (sessionId, sessionDetails) => {
   return new Promise((resolve, reject) => {
