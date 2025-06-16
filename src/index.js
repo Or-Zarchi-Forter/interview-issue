@@ -2,7 +2,7 @@ const { createClient } = require("./redis-client");
 const express = require("express");
 const PORT = 8000;
 
-const redisClient = createClient('redis://default:4nqD2QiKj2daYdxpJ50BBRaQfQSOJDqd@redis-17389.c15.us-east-1-2.ec2.redns.redis-cloud.com:17389');
+const redisClient = createClient('redis://default:EQLGQAAuaJzZuOJkq10SpzLIjjwZVGCk@redis-12934.c311.eu-central-1-1.ec2.redns.redis-cloud.com:12934');
 
 async function createApp() {
   const app = express();
